@@ -4,11 +4,15 @@
 # this process will be repeated six times
 # Eventually it should let the user choose which library is used for generation
 
-roll = ''
-while true
-  if roll.length >= 5
-    break
+def toss
+  roll = ''
+  while true
+    if roll.length >= 5
+      break
+    end
+    roll = roll + rand(1..6).to_s
   end
-  roll = roll + rand(1..6).to_s
+  roll
 end
+toss
 puts roll
