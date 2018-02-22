@@ -10,7 +10,7 @@ To start, it will roll five virtual die to create a 5 digit number used to look 
 Requires at least Ruby 2.3.3. Not tested on other versions.
 
 ### Installation
-Place 'crd.rb' in and easy to locate folder along with 'effLargeWordlist.txt'. The run crd from your command line. 
+Place 'crd.rb' in and easy to locate folder along with 'effLargeWordlist.txt'. Then run crd from your command line. 
 
 ```
 $ ruby crd.rb
